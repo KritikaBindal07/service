@@ -1,0 +1,113 @@
+body{
+    background-color: #1E1E1E;
+
+}
+.service{
+    background-color:rgba(112, 123, 121, 0.3);
+    position: absolute;
+    width: fit-content;
+    color: #00D1FF;
+    height: 25px;
+    /* height: fit-content; */
+    top: 4%;
+    left:38% ;
+    padding-top: 4px;
+    
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border-left: 1.5px solid rgb(75, 75, 111);
+    border-bottom: 1px solid rgb(78, 78, 123);
+    border-top:1px solid rgb(74, 70, 70) ;
+    border-right:1px solid rgb(97, 90, 90) ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+span{
+    /* position: absolute; */
+    top: 4%;
+    justify-content: center;
+    /* align-items: center;
+    align-self: center; */
+}
+.container{
+    position: absolute;
+    justify-content: center;
+    top: 3%;
+    left: 32%;
+    width: 33%;
+    background-color: black;
+    height: 700px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 28%;
+    width: 100%;
+    top: 18%;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    background-color: black;
+   
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    height: 28%;
+    width: 100%;
+    top: 43%;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    height: 28%;
+    width: 100%;
+    top: 68%;
+    
+    background-color: black;
+   
+}
+
+.box{
+    display: flex;
+    width: 34%;
+    height: 78%;
+    background-color: gray;
+    flex-direction: row;
+    border-radius: 8px;
+    
+
+}
+
+.caption{
+    position: relative;
+    top: 82%;
+   color: #00D1FF;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+
+    
+    width: 100%;
+    height: 22%;
+    border-radius: 0px 0px 8px 8px;
+}
+.p{
+   
+    display: flex;
+    margin: auto;
+    width: 100%;
+    
+    
+}
+
